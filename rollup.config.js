@@ -25,6 +25,7 @@ export default {
 		commonjs(),
 		postcss({
 			modules: true,
+			plugins: [],
 		}),
 	],
 };
