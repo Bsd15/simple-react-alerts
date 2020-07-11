@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from "react";
+import "./SimpleAlert.css";
 import classes from "./SimpleAlert.module.css";
 
 export const AlertType = {
