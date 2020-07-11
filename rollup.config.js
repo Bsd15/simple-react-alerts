@@ -23,11 +23,12 @@ export default {
 	plugins: [
 		peerDepsExternal(),
 		resolve(),
+		// ref: https://stackoverflow.com/a/52885295
+		babel({ babelHelpers: "bundled" }),
 		commonjs(),
 		postcss({
 			modules: true,
 			plugins: [],
 		}),
-		babel({ babelHelpers: "bundled" }),
 	],
 };
