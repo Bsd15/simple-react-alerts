@@ -23,5 +23,9 @@
 		"react": ">=16.8.0",
 		"react-dom": ">=16.8.0",
 		"tailwindcss": ">=1.4.6"
+	},
+	"scripts": {
+		"build": "rollup -c",
+		"build:css": " yarn tailwindcss build src/assets/tailwind.css -o src/SimpleAlert/SimpleAlert.css                                             "
 	}
 }
