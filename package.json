@@ -3,6 +3,10 @@
 	"version": "1.0.0",
 	"description": "Simple alert components for react",
 	"main": "index.js",
+	"module": "build/index.esm.js",
+	"files": [
+		"build"
+	],
 	"repository": "git@github.com:Bsd15/simple-react-alerts.git",
 	"author": "BSD",
 	"license": "MIT",
