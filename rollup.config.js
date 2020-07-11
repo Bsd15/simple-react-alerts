@@ -19,5 +19,12 @@ export default {
 			sourcemap: true,
 		},
 	],
-	plugins: [peerDepsExternal(), resolve(), commonjs(), postcss()],
+	plugins: [
+		peerDepsExternal(),
+		resolve(),
+		commonjs(),
+		postcss({
+			modules: true,
+		}),
+	],
 };
