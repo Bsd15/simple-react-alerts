@@ -60,7 +60,7 @@ const SimpleAlert = (WrappedComponent) => {
 		);
 
 		return (
-			<>
+			<React.Fragment>
 				<WrappedComponent
 					{...props}
 					showAlert={showAlert}
@@ -88,7 +88,7 @@ const SimpleAlert = (WrappedComponent) => {
 						</section>
 					</section>
 				</article>
-			</>
+			</React.Fragment>
 		);
 	};
 	return ComponentWithAlert;
